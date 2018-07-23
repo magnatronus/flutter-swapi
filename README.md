@@ -1,6 +1,6 @@
-# swapi
+# flutter-swapi
 
-SWAPI is an iOS/Android demo Flutter project based around [SWAPI](https://swapi.co/) The Star Wars API.
+flutter-swapi is an iOS/Android demo Flutter project based around [SWAPI](https://swapi.co/) The Star Wars API.
 
 It uses the following Flutter Plug-ins (see pubspec.yaml) for details.
 
