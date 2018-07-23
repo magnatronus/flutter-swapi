@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 
 ///
-/// A class representig the SWAP API
+/// A class representing the SWAP API
 /// 
 class SWAPI {
 
@@ -14,7 +14,7 @@ class SWAPI {
     return http.get(Uri.encodeFull(restURL), headers: {"Content-type": "application/json", 'charset':'utf-8'});
   }
 
-  /// An example of using a specif calll with
+  /// An example of using a specific API method
   getRoot() async {
     return _callAPI("$_endpoint/");
   }
